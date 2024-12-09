@@ -1,0 +1,280 @@
+body
+{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(1, 17, 61, 0.884);
+
+}
+
+.baslik .b1
+{  
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+.baslik .b1 .imgg
+{
+    width: 40%;
+    height: 25vh;
+    
+}
+
+.baslik .b1 .imgg img
+{
+    width: 30%;
+    height: 25vh;
+}
+
+.baslik .b1 .aa
+{
+    
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+.baslik .b1 .aa a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.baslik .b1 .hh1 
+{
+    width: 20%;
+    height: 25vh;
+    display: block;
+    justify-items: center;
+    align-content: center;
+    padding-top: 60px;
+}
+
+.baslik .b1 .hh1 h1
+{
+    color: white;
+}
+
+
+.baslik .b1 .aa a:hover
+{
+    text-decoration: underline;
+}
+
+body .orta 
+{
+
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.orta .arkaplan1
+{
+    display: block;
+    width: 100%;
+    height: 60vh;
+    justify-items: center;
+    
+    
+    
+}
+
+.orta .arkaplan1 .res1
+{
+    display: block;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.orta .arkaplan1 .res1 a
+{
+    text-align: center;
+    color: gray;
+    backface-visibility: visible;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.orta .arkaplan1 .res1 img
+{
+    
+    width: 100%;
+    height: 55vh;
+    border: 2px  rgba(1, 17, 61, 0.884) solid;
+    border-radius: 10px;
+    opacity: 0;
+    display: block;
+    backface-visibility: visible;
+    
+    transition: .5s ease;
+    
+}
+
+
+
+.orta .arkaplan1 .res1 a
+{
+    
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    
+    color: gray;
+    backface-visibility: visible;
+    font-size: 40px;
+    text-decoration: none;
+    
+    
+}
+
+.orta .arkaplan1 :hover img
+{
+    opacity: 1 ;
+}
+
+.orta .arkaplan1 :hover a
+{
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 3px 5px black;
+    color: white;
+}
+
+
+.orta .arkaplan2
+{
+    display: block;
+    width: 100%;
+    height: 60vh;
+    justify-items: center;
+    
+    
+    
+}
+
+.orta .arkaplan2 .res2 
+{
+    display: block;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.orta .arkaplan2 .res2 a
+{
+    
+    text-align: center;
+    color: gray;
+    backface-visibility: visible;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.orta .arkaplan2 .res2 img
+{
+    
+    width: 100%;
+    height: 55vh;
+    border: 2px  rgba(1, 17, 61, 0.884) solid;
+    border-radius: 10px;
+    opacity: 0;
+    display: block;
+    backface-visibility: visible;
+    
+    transition: .5s ease;
+    
+}
+
+
+
+.orta .arkaplan2 .res2 a
+{
+    
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    
+    color: gray;
+    backface-visibility: visible;
+    font-size: 40px;
+    text-decoration: none;
+    
+    
+}
+
+.orta .arkaplan2 :hover img
+{
+    opacity: 1 ;
+}
+
+.orta .arkaplan2 :hover a
+{
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 3px 5px black;
+    color: white;
+}
+
+/*.orta .arkaplan2 .res2
+{
+    display: block;
+    justify-items: center;
+    
+}
+
+.orta .arkaplan2 .res2 img
+{
+    
+    width: 100%;
+    height: 100vh;
+    border: 2px  rgba(1, 17, 61, 0.884) solid;
+    border-radius: 10px;
+    opacity: 0;
+    display: block;
+    backface-visibility: visible;
+    
+    transition: .5s ease;
+    
+}
+
+body .arkaplan2 .res2 a
+{
+    
+    text-align: center;
+    color: gray;
+    backface-visibility: visible;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+
+.orta .arkaplan2 .res2:hover img
+{
+    opacity: 1 ;
+}
+
+.orta .arkaplan2 .res2 a:hover
+{
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 3px 5px black;
+    color: white;
+}*/
